@@ -1,0 +1,28 @@
+<form class="form-horizontal" [formGroup]="signupform" (ngSubmit)="onSave()">
+<div >
+	<div class="form-group">
+	
+	
+	
+		
+		<table>
+		<thead><tr><td>Product Name</td>
+    <td>Quantity</td>
+    </tr></thead>
+			<tbody>
+				<tr >
+          <td>
+            <input formControlName="name">
+          </td>
+          
+          <td>
+            <input formControlName="qty">
+          </td>
+				</tr>
+			</tbody>
+		</table>
+
+    <button type="submit"> Save</button>
+	</div>
+</div>
+</form>
